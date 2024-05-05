@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q1Activity"
+    android:background="@drawable/sun">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="事件一：相逢"
+        android:textSize="26dp"
+        android:background="@drawable/wood"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+    >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        android:layout_marginTop="55dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一天下午，你離開村子打獵，身手矯健的你馬上抓到了一隻野雞，心滿意足地踏上了回程。當你經過森林時
+，看到一個瘦小的男孩坐在路邊，身旁有兩綑木材，他告訴你他在砍柴時扭傷了腳又迷了路，這時你會："
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background = "#9d000000"
+        android:textColor="#ffffffff">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q1_1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/tv_q1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q1_1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q1_1"
+        android:layout_alignTop="@+id/tv_q1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        android:text="上前幫忙拿木柴，扶他回他的村莊，看他很餓的樣子，野雞也讓他帶走吧！"
+
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q1_2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q1_1"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q1_2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q1_1"
+        android:layout_alignTop="@+id/tv_q1_1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="105dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        android:text="和他一起搬木柴回自己村莊，然後在酒吧一起吃烤雞，說不定能成為好朋友。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q1_3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q1_2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q1_3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q1_2"
+        android:layout_alignTop="@+id/tv_q1_2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        android:text="用木柴組成一個小拖車，拖著他回他的村莊，天色太晚的話就和他借住一宿吧!"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q1_4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q1_3"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q1_4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q1_3"
+        android:layout_alignTop="@+id/tv_q1_3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        android:text="上前詢問傷勢如何、是否要幫忙？最後扶他回他的村莊，確保沒事就離開。"
+
+        >
+    </TextView>
+
+
+
+
+</RelativeLayout>

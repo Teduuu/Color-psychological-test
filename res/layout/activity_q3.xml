@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q3Activity"
+    android:background="@drawable/sun">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="事件三：搭檔"
+        android:textSize="26dp"
+        android:background="@drawable/wood"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        android:layout_marginTop="55dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="幾天後是村子裡的比武大會，賽制是雙人搭檔的2v2對決，不只考驗個人實力，也考驗和隊友的默契，眼看比武的日子
+一天天靠近，你會如何選擇你的隊友："
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background = "#9d000000"
+        android:textColor="#ffffffff">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q3_1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/tv_q3"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q3_1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q3_1"
+        android:layout_alignTop="@+id/tv_q3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="22dp"
+        android:text="交給主辦方分配就好，我沒問題的。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q3_2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q3_1"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q3_2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q3_1"
+        android:layout_alignTop="@+id/tv_q3_1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="22dp"
+        android:text="到場後主動尋找看起來合適的人，上前搭訕組隊。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q3_3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q3_2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q3_3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q3_2"
+        android:layout_alignTop="@+id/tv_q3_2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="22dp"
+        android:text="邀請男孩組隊，為比賽培養默契和新招式。"
+
+        >
+    </TextView>
+
+
+
+
+</RelativeLayout>

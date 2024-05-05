@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q5Activity"
+    android:background="@drawable/sun">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="最終章：抉擇"
+        android:textSize="26dp"
+        android:background="@drawable/wood"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        android:layout_marginTop="55dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_q5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="比賽結束後，你決定到森林裡散步，放鬆身心。勞累的你不小心在大樹下睡著了。醒來時才驚覺手鐲不見了！
+當你四下尋找時突然聽到一聲慘叫，循著聲音找去發現一隻巨大的老虎把一個大叔困在懸崖邊，而那個大叔手上正是你的手鐲，可以斷定他就是小偷
+，這時你會："
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background = "#9d000000"
+        android:textColor="#ffffffff">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q5_1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/tv_q5"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q5_1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q5_1"
+        android:layout_alignTop="@+id/tv_q5"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="170dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q5_2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q5_1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q5_2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q5_1"
+        android:layout_alignTop="@+id/tv_q5_1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q5_3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q5_2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q5_3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q5_2"
+        android:layout_alignTop="@+id/tv_q5_2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q5_4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q5_3"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q5_4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q5_3"
+        android:layout_alignTop="@+id/tv_q5_3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="18dp"
+
+        >
+    </TextView>
+
+
+
+
+</RelativeLayout>

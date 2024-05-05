@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">ListPractice</string>
+
+    //   準確率：5/10
+    //
+
+    <string-array name="colors">
+        <item>紅色</item>
+        <item>深紅</item>
+        <item>粉色</item>
+        <item>橘色</item>
+        <item>淺黃</item>
+        <item>黃色</item>
+        <item>淺綠</item>
+        <item>綠色</item>
+        <item>淺藍</item>
+        <item>藍色</item>
+        <item>紫色</item>
+        <item>黑色</item>
+        <item>灰色</item>
+        <item>白色</item>
+    </string-array>
+    <string-array name="means">
+        <item>熱情、大方、有行動力\n有時會過於衝動、有控制慾</item>
+        <item>成熟、承受力強、含蓄的熱情\n有時會感受到孤獨、動力不足、衰敗</item>
+        <item>浪漫、幸福、無條件的付出\n有時會過於委曲求全、懦弱、成為被害者</item>
+        <item>喜悅、重感情、人際關係好\n有時會因害怕孤獨而在交際中迷失自己</item>
+        <item>溫柔、隨和、親切的小清新\n有時會沒主見、膽小、迷茫</item>
+        <item>陽光、自信、有領導力\n有時會太愛面子、忌妒、自以為是</item>
+        <item>瀟灑、追求成長、處於改變的轉捩點\n有時會猶豫不決、脆弱、見風轉舵</item>
+        <item>平衡、有愛心、心中自有謀略\n有時會隱藏自我、安全感不足</item>
+        <item>自由、創造、天馬行空的想像\n有時會過於叛逆、不穩定、行為脫序</item>
+        <item>理性、穩重、冷靜地剖析\n有時會給人距離感、冷漠、不知變通</item>
+        <item>神秘、高雅、敏感度高\n有時會憂鬱、逃避現實、鑽牛角尖</item>
+        <item>獨立、包容、無限的潛力\n有時會出現未知的恐懼、不了解自己</item>
+        <item>樸實、腳踏實地、盡守本分\n有時會過於慵懶、邋遢、被眾人忽略</item>
+        <item>純潔、自律、守護他人\n有時會過於龜毛、追求完美</item>
+    </string-array>
+    <string-array name="english">
+        <item>將軍</item>
+        <item>浪人</item>
+        <item>公主</item>
+        <item>說書人</item>
+        <item>仕女</item>
+        <item>王子</item>
+        <item>見習生</item>
+        <item>長老</item>
+        <item>裁縫師</item>
+        <item>偵探</item>
+        <item>女巫</item>
+        <item>僧侶</item>
+        <item>士兵</item>
+        <item>天使</item>
+    </string-array>
+
+    <string-array name="q1">
+        0
+        <item>上前幫忙拿木柴，扶他回他的村莊，看他很餓的樣子，野雞也讓他帶走吧！</item>
+        3
+        <item>和他一起搬木柴回自己村莊，然後在酒吧一起吃烤雞，說不定能成為好朋友。</item>
+        8
+        <item>用木柴組成一個小拖車，拖他回他的村莊，天色太晚的話就和他借住一宿吧。</item>
+        7
+        <item>上前詢問傷勢如何、是否要幫忙？最後扶他回他的村莊，確保沒事就離開。</item>
+    </string-array>
+
+
+    <string-array name="q2">
+        4
+        <item>和男孩一同準備晚餐，並整理出一間房間給他住，要多待幾天也沒問題！</item>
+        2
+        <item>和他聊得很開心，還送我這麼好的禮物，怎麼可能不收留他，明天他離開前再把家裡最好的酒送給他。</item>
+        9
+        <item>懷疑男孩。砍柴小弟怎麼會專程送來這麼貴重的禮物？先委婉的拒絕，但讓他帶些禮物回去避免尷尬。</item>
+        10
+        <item>男孩說不定還有其他事情相求，可能村裡或是家庭出事了，又不好意思直接求助我，先留他下來觀察吧！</item>
+
+    </string-array>
+
+    <string-array name="q3">
+        11
+        <item>交給主辦方分配就好，我沒問題的。</item>
+        5
+        <item>到場後主動尋找看起來優秀、合適的人，上前搭訕組隊。</item>
+        6
+        <item>邀請男孩組隊，為比賽培養默契和新招式。</item>
+
+    </string-array>
+
+    <string-array name="q4">
+        1
+        <item>採取守勢，觀察對手的出招習慣，等待破綻出現。</item>
+        12
+        <item>配合隊友指揮，不輕舉妄動。能穩定發揮平時的實力就有勝算。</item>
+        13
+        <item>確保隊友不受威脅並和裁判反應對手的行為。</item>
+    </string-array>
+
+    <string-array name="q5">
+        紅色<item>趕緊向前衝，和老虎纏鬥，幫小偷製造脫身機會，畢竟救人要緊，手鐲給了他也沒關係。</item>
+        深紅<item>先慢慢靠近，潛伏在一旁，等待適當的時機給老虎致命一擊，然後取回手鐲，接著離開。</item>
+        粉色<item>安撫小偷的情緒，叫小偷不要激怒老虎，同時施法使老虎睡著，不在意小偷拿走手鐲。</item>
+        橘色<item>加入戰局，和小偷並肩作戰一定能打敗老虎，手鐲的事情結束後再和小偷聊聊他的動機。</item>
+        淺黃<item>不敢向前，馬上跑出森林求助。小偷偷走我的手鐲可能也有他的苦衷，還是給他吧。</item>
+        黃色<item>以平時訓練的實力，正面將老虎打敗，若小偷有悔意的話，就不和他追究手鐲的事了。</item>
+        淺綠<item>猶豫自己是否有能力打敗老虎，留在現場觀察一下情勢再做決定，手鐲的事日後再說。</item>
+        綠色<item>大吼一聲，把老虎引入森林，趁機脫困。最後找來小偷斥責一番，拿回手鐲。</item>
+        淺藍<item>拿身旁的樹枝當劍，再丟一把砂石影響老虎視線，趁機打敗老虎。拿回手鐲、高歌離席。</item>
+        藍色<item>野獸怕火，拿身上的火藥點燃樹枝嚇走老虎。再把小偷逮捕審判，釐清他為什麼偷手鐲。</item>
+        紫色<item>不想為小偷冒上生命危險，轉身離去。事後心情鬱悶，有些自責，也擔心老虎會再做亂。</item>
+        黑色<item>雖然害怕但不忍小偷被吃掉。仍然拿起配劍奮戰，在恐懼與勇敢間游移，忘記手鐲的事。</item>
+        灰色<item>丟石頭擾亂老虎注意，若無效就放棄營救。因為我死了就沒人能通知村裡的人森林有老虎。</item>
+        白色<item>偷東西雖然可惡，但我不允許自己見死不救，我會拔出寶劍和老虎對決，然後拿回手鐲。</item>
+    </string-array>
+
+    <string-array name="typeA">
+        <item>紅色</item>
+        <item>橘色</item>
+        <item>黃色</item>
+    </string-array>
+
+
+    <string-array name="typeB">
+        <item>綠色</item>
+        <item>藍色</item>
+        <item>紫色</item>
+    </string-array>
+
+</resources>

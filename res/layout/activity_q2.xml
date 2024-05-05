@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q2Activity"
+    android:background="@drawable/sun">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="事件二：禮物"
+        android:textSize="26dp"
+        android:background="@drawable/wood"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@drawable/wood"
+        android:layout_marginTop="55dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事隔幾天，男孩再次出現，帶著一個純金的手鐲來送你，說要報答你的善心幫助，請你務必收下。你收下手鐲
+，並款待了男孩一番，眼看時間已近黃昏，男孩詢問是否能借住一宿，明天再離開，這時你會："
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background = "#9d000000"
+        android:textColor="#ffffffff">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q2_1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/tv_q2"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q2_1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q2_1"
+        android:layout_alignTop="@+id/tv_q2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        android:text="答應男孩，與他一同準備晚餐，並整理出一間房間給他，如果要多待幾天也沒問題。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q2_2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q2_1"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q2_2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q2_1"
+        android:layout_alignTop="@+id/tv_q2_1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        android:text="和他聊得很開心，還送我這麼好的禮物，怎麼可能不收留他，明天他離開前再把家裡最好的酒送給他。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q2_3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q2_2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q2_3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q2_2"
+        android:layout_alignTop="@+id/tv_q2_2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        android:text="懷疑男孩。砍柴小弟怎麼會專程送來這麼貴重的禮物？委婉拒絕他，但讓他帶些禮物回去避免尷尬。"
+
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_q2_4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/wood"
+        android:text="選擇"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/btn_q2_3"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/tv_q2_4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_q2_3"
+        android:layout_alignTop="@+id/tv_q2_3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="110dp"
+        android:background = "@drawable/textview"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        android:text="男孩說不定有其他事情相求，可能村裡或是家庭出事了，又不好意思直接求助我，先留他下來觀察吧！"
+
+        >
+    </TextView>
+
+
+
+
+</RelativeLayout>
